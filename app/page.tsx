@@ -75,7 +75,7 @@ export default function Home() {
           <nav aria-label="主要ナビゲーション" className="hidden items-center gap-7 lg:flex">
             {navItems.map(([label, href]) => (
               <a
-                className="text-xs font-semibold uppercase tracking-[0.22em] text-white/72 transition hover:text-sagittarius-water"
+                className="text-xs font-semibold uppercase tracking-[0.22em] text-white transition hover:text-sagittarius-water"
                 href={href}
                 key={label}
               >
