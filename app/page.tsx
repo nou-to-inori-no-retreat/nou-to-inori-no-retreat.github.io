@@ -116,13 +116,14 @@ export default function Home() {
               サジタリオ
             </h1>
             <p className="serif-heading mt-8 max-w-2xl text-2xl leading-[1.7] text-white/88 md:text-4xl">
-              射水の大地と清流が生む、
+              私を整え、家族を育む、
               <br className="hidden md:block" />
-              一矢の潤い。
+              引き算の食卓。
             </p>
             <p className="mt-6 max-w-2xl text-base leading-8 text-white/72 md:text-lg">
-              古の星が導き、射水の水が潤し、大地の力が育む。
-              食卓から家族の笑顔を守るために放たれる、現代のまっすぐな一矢です。
+              肥料も、農薬も、私たちの都合も、なにも足さない。
+              ただ、射水の水と土の記憶、そして星の巡りに耳を澄ませ、
+              効率やスピードから離れた「最高のスロー」を食卓へ届けます。
             </p>
             <div className="mt-10 flex flex-col gap-3 sm:flex-row">
               <a
@@ -158,19 +159,20 @@ export default function Home() {
           <div className="scroll-reveal">
             <SectionTitle
               eyebrow="はじまり"
-              title="射水。水を射るという名の地。"
-              lead="立山連峰から富山湾へ、一筋の水の軌道。豊かな自然のエネルギーが収束する、命の的の真ん中にこのブランドは生まれました。"
+              title="射水のスローベジタブル。私を整え、家族を育む、引き算の食卓。"
+              lead="自然の大きなリズムに身を委ねて育つ野菜には、女性の繊細なリズムに寄り添い、子どもたちの五感を呼び覚ます、混じり気のない強さが宿ります。"
             />
           </div>
           <div className="scroll-reveal rounded-[1.5rem] border border-sagittarius-water/35 bg-water-sheen p-8 shadow-soft md:p-12">
             <p className="text-lg leading-9 text-sagittarius-ink/82">
-              「射水」という地名は、文字通り「水を射る」ことに由来します。
-              雪解け水が地下を潜り、長い年月をかけて浄化され、この土地へと湧き出す。
-              この大地は、水が矢のように駆け抜ける「水の聖地」なのです。
+              「水のサジタリオ」が届けたいのは、ただ新鮮な野菜ではありません。
+              肥料も、農薬も、私たちのエゴも、なにも足さず、
+              射水の水と土の記憶、そして星の巡りに身を委ねて育てる、
+              引き算の農から生まれる静かな豊かさです。
             </p>
             <p className="mt-6 serif-heading text-2xl leading-[1.7] text-sagittarius-navy">
-              なにも足さない。ただ、射水の純粋さを
-              食卓へまっすぐ届ける。
+              効率やスピードから離れた、
+              最高の「スロー」をあなたの食卓へ。
             </p>
           </div>
         </div>
@@ -181,8 +183,8 @@ export default function Home() {
           <SectionTitle
             align="center"
             eyebrow="三つの核心"
-            title="水、星、土がひらく三つの核心。"
-            lead="射水の風土、天体と農の記憶、そして土を癒やす手。ブランドの世界観を支える核を、静かなカードとしてまとめました。"
+            title="整えること、育むこと、ゆだねること。"
+            lead="射水の風土、天体と農の記憶、そして土を癒やす手。スローベジタブルという思想を、暮らしに届く三つの核心としてまとめました。"
           />
           <div className="mt-14 grid gap-6 md:grid-cols-3">
             {coreValues.map((value, index) => (
@@ -214,16 +216,17 @@ export default function Home() {
             <SectionTitle
               eyebrow="物語"
               title="「射水」を翻訳する、イタリアの響き。"
-              lead="サジタリオは、イタリア語で射手座を意味します。矢を放つ星座の名に、射水の清らかな水を重ね、野菜という一矢に乗せて食卓へ射抜く。そこに、イタリアのスローフード哲学を重ねました。"
+              lead="サジタリオは、イタリア語で射手座を意味します。矢を放つ星座の名に、射水の清らかな水を重ね、野菜という一矢に乗せて食卓へ射抜く。そこに、イタリアのスローフード哲学と、射水ならではのスローベジタブルの思想を重ねました。"
             />
             <div className="mt-8 space-y-6 text-sm leading-8 text-sagittarius-ink/76 md:text-base">
               <p>
                 イタリア発祥の「スローフード」は、その土地の風土と食文化を守り、
-                効率やスピードよりも、旬の食材の味わいと生まれるまでの物語を大切にする思想です。
+                効率やスピードでは測れない食の豊かさを取り戻す思想です。
               </p>
               <p>
                 日本のベニスと呼ばれる内川の水辺文化、立山の雪解け水、そして射水の農の記憶。
-                Global Philosophy, Local Roots という感覚で、この土地の魅力を見つめ直しています。
+                その土地ならではの時間の流れを受け取り、日々の食卓へ訳し直すこと。
+                それが「射水のスローベジタブル」という私たちの答えです。
               </p>
             </div>
           </div>
@@ -382,8 +385,8 @@ export default function Home() {
           <div className="scroll-reveal">
             <SectionTitle
               eyebrow="マルシェ / 整う暮らし"
-              title="食卓からはじまる、整いの連鎖。"
-              lead="的に命中した矢が水面に波紋を広げるように、射水で生まれた野菜は個人の中から家族、そして社会全体へと健康の余韻を広げていきます。"
+              title="食卓からはじまる、スローの連鎖。"
+              lead="的に命中した矢が水面に波紋を広げるように、射水で生まれた野菜は、私を整え、家族を育み、その余韻を暮らし全体へと静かに広げていきます。"
             />
           </div>
         </div>
@@ -415,8 +418,8 @@ export default function Home() {
           </h2>
           <p className="mx-auto mt-8 max-w-3xl text-base leading-8 text-white/80 md:text-lg">
             古の星が導き、射水の水が潤し、大地の力が育む。
-            「水のサジタリオ」は、食卓から家族の笑顔を守る、現代の射手です。
-            なにも足さない、純粋な一矢を、あなたの家族へまっすぐ届けます。
+            「水のサジタリオ」は、私を整え、家族を育む、引き算の食卓を届ける現代の射手です。
+            なにも足さない純粋な一矢を、あなたの家族へまっすぐ届けます。
           </p>
           <div className="mt-10 flex flex-col justify-center gap-3 sm:flex-row">
             <a
@@ -439,7 +442,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col gap-8 md:flex-row md:items-center md:justify-between">
           <Logo />
           <p className="max-w-xl text-sm leading-7 text-white/62">
-            水のサジタリオ / 射水のスローベジタブル。射水の大地と清流が生む一矢の潤いを、家族の食卓へ静かに届けます。
+            水のサジタリオ / 射水のスローベジタブル。私を整え、家族を育む、引き算の食卓を、射水の水と土の記憶とともに静かに届けます。
           </p>
           <div className="flex gap-3 text-xs font-semibold uppercase tracking-[0.22em] text-white/64">
             <a className="transition hover:text-sagittarius-water" href="#">
