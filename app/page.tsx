@@ -96,6 +96,20 @@ export default function Home() {
         className="relative flex min-h-[92svh] items-center overflow-hidden bg-hero-radial px-5 pb-16 pt-28 text-white md:px-8 md:pb-20 md:pt-36"
         id="top"
       >
+        <div className="absolute inset-0 overflow-hidden">
+          <video
+            aria-label="水のサジタリオ ブランドムービー"
+            autoPlay
+            className="h-full w-full object-cover object-center opacity-35 md:opacity-50"
+            loop
+            muted
+            playsInline
+            preload="metadata"
+          >
+            <source src="/hero-top.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(8,42,74,0.82)_0%,rgba(8,42,74,0.64)_38%,rgba(8,42,74,0.42)_68%,rgba(8,42,74,0.56)_100%)]" />
         <div className="absolute inset-0 star-field opacity-80" />
         <div className="absolute inset-0 ripple-field opacity-25" />
         <div className="absolute left-[7%] top-[24%] h-72 w-72 rounded-full border border-sagittarius-water/25" />
