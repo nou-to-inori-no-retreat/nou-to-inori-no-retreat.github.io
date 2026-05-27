@@ -3,6 +3,7 @@ import { Logo } from "@/components/Logo";
 import { ProducerCard } from "@/components/ProducerCard";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionTitle } from "@/components/SectionTitle";
+import Image from "next/image";
 
 const navItems = [
   ["理念", "#concept"],
@@ -426,7 +427,19 @@ export default function Home() {
             title="暮らしに寄り添う、世界観のかけら。"
             lead="ロゴや弓矢、水紋の余韻をまとったTシャツ、トート、包装資材まで。ブランドが日常に静かに溶け込む展開を見せます。"
           />
-          <div className="mt-14">
+          <div className="mt-14 overflow-hidden rounded-[1.6rem] border border-white/70 bg-white/80 shadow-soft">
+            <div className="relative aspect-[16/10] w-full md:aspect-[16/8.5]">
+              <Image
+                alt="水のサジタリオのブランドグッズ一覧"
+                className="object-cover"
+                fill
+                priority={false}
+                sizes="(min-width: 1024px) 1120px, 100vw"
+                src="/brand-goods-collection.png"
+              />
+            </div>
+          </div>
+          <div className="mt-8">
             <BrandGoods />
           </div>
         </div>
