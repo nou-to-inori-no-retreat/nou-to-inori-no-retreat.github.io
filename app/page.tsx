@@ -1,7 +1,6 @@
 import { BrandGoods } from "@/components/BrandGoods";
 import { Logo } from "@/components/Logo";
 import { ProducerCard } from "@/components/ProducerCard";
-import { ProducerStickerShowcase } from "@/components/ProducerStickerShowcase";
 import { ProductCard } from "@/components/ProductCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import Image from "next/image";
@@ -383,11 +382,33 @@ export default function Home() {
           <SectionTitle
             align="center"
             eyebrow="生産者のしるし"
-            title="畑ごとの個性に、水のサジタリオの一枚を。"
-            lead="marufarm、射水自然農園、はなわっか畑。それぞれの商品に各ブランドのしるしと、水のサジタリオのブランドシールが重なることで、土地の個性と共通の世界観がひとつの景色になります。"
+            title="透明袋の中に、それぞれの畑の個性を。"
+            lead="かぶや葉もの、きのこ、にんじん、トマト。透明袋の中に野菜そのものの表情を見せながら、marufarm、はなわっか畑、射水自然農園のしるしと、水のサジタリオのブランドシールが並ぶことで、個性と統一感がひとつの売場に結ばれます。"
           />
-          <div className="mt-14">
-            <ProducerStickerShowcase />
+          <div className="mt-14 overflow-hidden rounded-[1.6rem] border border-white/70 bg-white/85 shadow-soft">
+            <div className="relative aspect-[16/10] w-full md:aspect-[16/8.4]">
+              <Image
+                alt="透明袋に入った野菜に、marufarm、はなわっか畑、射水自然農園と水のサジタリオのシールが貼られた商品イメージ"
+                className="object-cover"
+                fill
+                sizes="(min-width: 1024px) 1120px, 100vw"
+                src="/producer-stickers-scene.png"
+              />
+            </div>
+          </div>
+          <div className="mt-6 grid gap-3 text-sm text-sagittarius-ink/72 md:grid-cols-4">
+            <div className="rounded-[1.1rem] border border-sagittarius-water/35 bg-sagittarius-mist/60 px-4 py-3">
+              葉もの・かぶ
+            </div>
+            <div className="rounded-[1.1rem] border border-sagittarius-water/35 bg-sagittarius-mist/60 px-4 py-3">
+              きのこ
+            </div>
+            <div className="rounded-[1.1rem] border border-sagittarius-water/35 bg-sagittarius-mist/60 px-4 py-3">
+              にんじん
+            </div>
+            <div className="rounded-[1.1rem] border border-sagittarius-water/35 bg-sagittarius-mist/60 px-4 py-3">
+              レタス・トマト
+            </div>
           </div>
         </div>
       </section>
