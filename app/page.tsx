@@ -208,7 +208,7 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-[#f4f8f5] text-slate-950">
       <section className="relative min-h-[88svh] overflow-hidden bg-slate-950 text-white">
         <img
-          src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=2200&q=85"
+          src="/meditation-field.png"
           alt="青緑の田園風景と朝霧のイメージ"
           className="absolute inset-0 h-full w-full object-cover"
         />
@@ -312,6 +312,43 @@ export default function Home() {
             </p>
             <p className="mt-5">
               農作業を体験するだけではなく、食べること、つくること、祈ることをもう一度丁寧に取り戻す。水のサジタリオが届ける、射水の水と土に還るための2泊3日です。
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      <section className="bg-white px-6 py-20 md:px-10">
+        <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[1.05fr_0.95fr] md:items-center">
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6 }}
+            className="overflow-hidden shadow-[0_28px_90px_rgba(5,34,45,0.14)]"
+          >
+            <img
+              src="/meditation-field.png"
+              alt="畑の上で瞑想しているリトリート参加者のイメージ"
+              className="h-[520px] w-full object-cover"
+            />
+          </motion.div>
+          <motion.div
+            variants={fadeUp}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.6, delay: 0.08 }}
+          >
+            <p className="mb-3 text-sm font-semibold text-teal-700">PRAYER LANDSCAPE</p>
+            <h2 className="text-3xl font-semibold leading-tight text-slate-950 md:text-5xl">
+              畑の上で、呼吸をそろえる。
+            </h2>
+            <p className="mt-5 text-lg leading-9 text-slate-700">
+              朝の光と土の匂いに包まれながら、ただ座って呼吸を整える時間。観光でも修行でもない、土地の気配に自分をひらいていく静かな入口です。
+            </p>
+            <p className="mt-4 text-base leading-8 text-slate-600">
+              食べることやつくることの前に、まず身体と心をほどく。この風景が、旅全体のトーンをやわらかく定めてくれます。
             </p>
           </motion.div>
         </div>
