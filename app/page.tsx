@@ -224,7 +224,7 @@ export default function Home() {
             <h1 className="text-5xl font-semibold leading-[1.08] text-white md:text-7xl">
               農と祈りの
               <br />
-              リトリート
+              スローステイ
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-9 text-emerald-50/90 md:text-xl">
               水・土・火・香りに還る、2泊3日。射水市水戸田・青井谷を舞台に、自然栽培の食、田んぼの土の器、焚火、バラ、へちま、地元の人との語らいを味わう農泊ウェルネスツアー。
@@ -558,7 +558,7 @@ export default function Home() {
             <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
               <div>
                 <p className="text-sm font-semibold text-teal-700">RETREAT PLAN</p>
-                <h3 className="mt-2 text-2xl font-semibold">農と祈りのリトリート</h3>
+                <h3 className="mt-2 text-2xl font-semibold">農と祈りのスローステイ</h3>
               </div>
               <div className="border border-emerald-900/10 bg-[#edf8f1] px-4 py-3 text-left sm:text-right">
                 <p className="text-sm text-slate-600">1組</p>
@@ -623,7 +623,7 @@ export default function Home() {
 
       <footer className="border-t border-teal-900/10 px-6 py-10 md:px-10">
         <div className="mx-auto flex max-w-7xl flex-col gap-4 text-sm text-slate-600 md:flex-row md:items-center md:justify-between">
-          <p className="font-semibold text-slate-950">水のサジタリオ presents 農と祈りのリトリート</p>
+          <p className="font-semibold text-slate-950">水のサジタリオ presents 農と祈りのスローステイ</p>
           <p>© Mizuno Sagittario Retreat. All rights reserved.</p>
         </div>
       </footer>
